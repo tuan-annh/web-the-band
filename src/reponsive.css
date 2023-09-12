@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1300px) {
+    .tickets-form{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .icon-search > i{
+        display: none;
+    }
+    .icon-search span{
+        display: block;
+    }
+    .reponsive-moblie{
+        display: none;
+    }
+    .nav-bar > li {
+        display: none;
+    }
+    .hien {
+        display: inline-block !important;
+    }
+    .bar-btn-mobile{
+        display: none;
+    }
+    .slider-content{
+        display: none;
+    }
+    .member{
+        flex-wrap: wrap;
+    }
+    .member-item{
+        width: 100%;
+    }
+    .member-item img{
+        width: 100%;
+    }
+    .tour-section{
+        flex-wrap: wrap;
+    }
+    .tour-item{
+        width: 100%;
+    }
+    .contact-section{
+        flex-wrap: wrap;
+    }
+    .contact-information{
+        flex-basis: 100%;
+    }
+    .contact-form{
+        flex-basis: 100%;
+    }
+    .tickets-form{
+        width: 90%;
+    }
+}

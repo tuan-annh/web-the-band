@@ -1,0 +1,357 @@
+*{
+    font-family: sans-serif;
+}
+.d-block{
+    display: block !important;
+}
+.d-flex{
+    display: flex !important;
+}
+.hero{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    height: 46px;
+}
+.nav-bar{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar > li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 24px;
+    line-height: 46px;
+    display: block;
+}
+.nav-bar > li:hover > a,
+.nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+.nav-bar li:hover .nav{
+    display: block;
+} 
+.nav{
+    position: absolute;
+    padding-left: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+}
+.nav li{
+    list-style: none;
+    width: 160px;
+}
+.nav a{
+    text-transform: none;
+    color: #000;
+}
+.icon-search i{
+    line-height: 46px;
+    color: #fff;
+    padding: 0 24px;
+    font-size: 18px;
+}
+.icon-search:hover i{
+    background-color: #c52424;
+    cursor: pointer;
+}
+.icon-search span{
+    display: none;
+}
+.bar-btn{
+    line-height: 46px;
+    max-width: 100%;
+}
+.bar-btn a{
+    width: 100%;
+    padding: 0 24px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bar-btn a:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.bar-btn-mobile{
+    display: none;
+}
+/* slider */
+.slider{
+    padding-top: 46px;position: relative;
+}
+.slider img{
+    width: 100%;
+    
+}
+.slider-content{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    margin-bottom: 50px;
+}
+.slider-content h4{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.slider-content p{
+    color: #fff;
+}
+
+.content-about{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 16px;
+}
+.content-about h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.content-about h3{
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+/* the band */
+.the-band{
+    text-align: justify;
+}
+.member{
+    display: flex;
+}
+.member-item{
+    width: calc(100%/3);
+    text-align: center;
+}
+.member-item img{
+    border-radius: 7px;
+    box-sizing: border-box;
+    max-width: 60%;
+}
+
+/* tour dates */
+.tour{
+    background-color: #000;
+}
+.tour-dates h2{
+    color: #fff;
+}
+.tour-dates h3{
+    color: #fff;
+}
+.tour-dates ul{
+    color: #000;
+    list-style: none;
+    background-color: #fff;
+    padding-left: 0;
+}
+.tour-dates li{
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    opacity: 0.7;
+}
+.tour-dates .sold-out{
+    color: #fff ;
+    background-color: #cf2c2c;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.tour-dates .number{
+    text-align: center;
+    color: #fff;
+    float: right;
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+    border-radius: 50%;
+    line-height: 25px;
+}
+.tour-section{
+    display: flex;
+    gap: 15px;
+}
+.tour-item{
+    width: calc(100%/3);
+    background-color: #fff;
+}
+.tour-item img{
+    width: 100%;
+}
+.tour-item-content{
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.tour-item-content .tour-location{
+    font-weight: bolder;
+}
+.tour-item-content .tour-date{
+    opacity: 0.7;
+}
+.tour-item-content button{
+    border: none;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.tour-item-content button:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* contact */
+.contact-section{
+    display: flex;
+}
+.contact-information{
+    flex-basis: 50%;
+}
+.contact-form{
+    flex-basis: 50%;
+}
+.input-top{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.input-top input{
+    width: 50%;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-form button{
+    width: 20%;
+    align-self: flex-end;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.contact-form button:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.contact-form input{
+    padding: 10px;
+}
+
+/* map */
+.map img{
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    margin: 50px 0;
+}
+.icon-footer i{
+    font-size: 24px;
+    opacity: 0.6;
+}
+.footer p{
+    opacity: 0.6;
+}
+.footer a{
+    color: #000;
+}
+
+/* modal */
+.modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.tickets-form{
+    width: 50%;
+}
+.tickets-content-form{
+    background-color: #fff;
+    padding: 15px;
+}
+.tickets-content-form input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+.tickets-content-form button{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    color: #fff;
+    background-color: #009688;
+
+}
+.ticket-heading{
+    background-color: #009688;
+}
+.ticket-heading p{
+    text-align: end;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+}
+.ticket-heading p:hover,
+.footer-tickets button:hover,
+.tickets-content-form button:hover{
+    cursor: pointer;
+}
+.ticket-heading h2{
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.footer-tickets{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.footer-tickets button{
+    background-color: #cf2c2c;
+    border: none;
+    color: #fff;
+}
